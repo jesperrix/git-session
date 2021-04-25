@@ -275,7 +275,7 @@ git log --all --graph --decorate
 git push
 ```
 
-### Create a Pull Request
+### Create a Pull Request (fea branch)
 
 1. Go to the repositiory at github.com
 
@@ -296,4 +296,33 @@ Cherry-pick can be used to "cherry pick" commits from another branch.
 
 ```
 git cherry-pick <commit sha>
+```
+
+#### cherry-pick the squash commit to the fix-branch for fun
+1. switch to the fix branch and fetch changes
+```
+git checkout fix/misspelled-weather
+git fetch --all
+```
+2. cherry pick the squashed commit from master
+```
+# find the commit sha from the git log
+git cherry-pick <commit sha>
+```
+3. fix conflicts
+
+4. conclude the cherry-pick
+```
+# check status for what commands to run
+git status
+
+git add hello_world.txt
+git cherry-pick --continue
+```
+
+5. see the log
+```
+git log --all --graph --decorate
+
+# now the fix branch has the squash commit as well
 ```
