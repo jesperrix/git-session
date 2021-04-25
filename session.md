@@ -12,7 +12,7 @@ This is an interactive git tutorial covering some of the basics of git, with the
   * [Create a commit from web (simulate co-worker)](#create-a-commit-from-web-simulate-co-worker)
   * [Force merge conflict and fix it](#force-merge-conflict-and-fix-it)
   * [Reset and use rebase instead](#reset-and-use-rebase-instead)
-4. [Create a Pull Request](#create-a-pull-request)
+4. [Create a Pull Request (fea branch)](#create-a-pull-request-fea-branch)
 5. [Cherry-pick vs. rebase](#cherry-pick-vs-rebase)
 
 
