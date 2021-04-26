@@ -14,6 +14,7 @@ This is an interactive git tutorial covering some of the basics of git, with the
   * [Reset and use rebase instead](#reset-and-use-rebase-instead)
 4. [Create a Pull Request (fea branch)](#create-a-pull-request-fea-branch)
 5. [Cherry-pick vs. rebase](#cherry-pick-vs-rebase)
+5. [Revert a commit](#revert-a-commit)
 
 
 ### Start new repo
@@ -344,4 +345,26 @@ git log --all --graph --decorate
 git push
 ```
 
-### Cherry-pick vs. rebase
+### revert a commit
+Lets say the previous feature somehow where unintended and we wants to undo it.
+
+1. switch back to the master branch
+```
+git checkout master
+```
+
+2. make sure all changes are present
+```
+git fetch --all
+```
+
+3. see the history and make sure we are up to date with the remote
+```
+git log --all
+git pull --ff
+```
+
+4. revert the unintended commit.
+```
+git revert <commit sha>
+```
