@@ -39,6 +39,11 @@ git add hello_world.txt
 git commit -m "adds extra line to hello_world.txt"
 ```
 
+5. push the changes
+```
+git push
+```
+
 ### Create a fix branch
 Correct the misspelling from original commit.
 
