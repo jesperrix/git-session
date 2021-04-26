@@ -83,6 +83,9 @@ git log --oneline
 
 # git log with diff
 git log -p
+
+# git log with graph
+git log --all --graph
 ```
 
 **git show**
