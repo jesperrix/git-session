@@ -56,7 +56,7 @@ if you want to update your work with stuff from master
 if you're running into thousand of merge conflicts, try to merge, but do not merge in case of laziness!
 
 if all hope is gone, use cherry pick as your last hope to get back to work.
-but use with wisdom! this is only for advanced users: [further reading: cherry-pick vs. merge workflow][11]
+but use with wisdom! this is only for advanced users: [further reading: cherry-pick vs. merge workflow][http://stackoverflow.com/questions/1241720/git-cherry-pick-vs-merge-workflow]
 
 
 #### if you finished rebasing, push before somebody else does
