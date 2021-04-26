@@ -230,16 +230,16 @@ git add hello_world.txt
 git commit
 ```
 
-7. Show the merge:
+7. Visualize the merge you just did:
 ```
 git log --all --graph --decorate
 
-# Now we created a merge bubble
+# Now you created a merge bubble
 #  master   *---*---*---*---*
 #                \         /
 #  my branch      *---*---*
 
-# What we wanted were:
+# What you wanted were:
 #  master   *---*---*---*
 #                        \
 #  my branch       -->    *---*---*
