@@ -91,6 +91,8 @@ git log --all --graph
 **git show**
 ```
 git show HEAD
+# or
+git show <commit sha>
 ```
 
 ### Create another branch before merging the fix branch
