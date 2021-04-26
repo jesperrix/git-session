@@ -338,3 +338,10 @@ git log --all --graph --decorate
 
 # now the fix branch has the squash commit as well
 ```
+
+6. Now push the changes
+```
+git push
+```
+
+### Cherry-pick vs. rebase
