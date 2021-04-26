@@ -184,6 +184,8 @@ how do you do?
 
 3. fetch the changes locally without merging
 ```
+git log --all
+# fetch all updates tho branches
 git fetch --all
 # verify the origin branch is ahead
 git log --all
