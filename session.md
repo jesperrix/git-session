@@ -214,7 +214,7 @@ git push
 ```
 git pull
 
-# git status
+# git status often help with what commands to run next
 git status
 ```
 
