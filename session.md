@@ -266,7 +266,7 @@ git status
 # check status for what commands to run
 git status
 
-# add, then run git commit
+# add, then finalize the rebase
 git add hello_world.txt
 git rebase --continue
 ```
